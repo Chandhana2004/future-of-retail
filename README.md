@@ -42,32 +42,21 @@ It predicts store sales and allows users to interact with the system through a c
    git clone https://github.com/Chandhana2004/future-of-retail.git
    cd future-of-retail
 2. Install dependencies:
-
-pip install -r requirements.txt
-
-
-(If requirements.txt is missing, manually install: fastapi uvicorn pandas numpy scikit-learn xgboost matplotlib)
+   pip install -r requirements.txt
+   (If requirements.txt is missing, manually install: fastapi uvicorn pandas numpy scikit-learn xgboost matplotlib)
 
 3. Run the app:
-
-uvicorn app:app --reload
-
-
-Or simply double-click run_project.bat (on Windows).
+   uvicorn app:app --reload
+   Or simply double-click run_project.bat (on Windows).
 
 4. Open in browser:
-👉 http://127.0.0.1:8000
+   👉 http://127.0.0.1:8000
 
 📊 Visualizations
-
-Store sales trends
-
-Product category analysis
-
-Prediction vs Actual sales
+    Store sales trends
+    Product category analysis
+    Prediction vs Actual sales
 
 📌 Future Improvements
-
-Deploy on cloud (Heroku / AWS)
-
-Improve UI/UX with modern frontend
+    Deploy on cloud (Heroku / AWS)
+    Improve UI/UX with modern frontend
